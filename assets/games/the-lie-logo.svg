@@ -1,16 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
-  <title id="title">The Lie</title>
-  <desc id="desc">The Lie psikolojik gerilim oyununun logosu</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">THE LIE</title>
+  <desc id="desc">The Lie psikolojik gerilim oyununun özel geometrik logosu</desc>
   <defs>
-    <linearGradient id="word" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8f2"/><stop offset=".55" stop-color="#ffd7ce"/><stop offset="1" stop-color="#ff8b79"/></linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 .4 0 .1 0 0 0 0 0 .1 0 .02 0 0 0 .7 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#fff9f3"/><stop offset="1" stop-color="#e8c9cb"/></linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb49f"/><stop offset="1" stop-color="#c92c45"/></linearGradient>
+    <filter id="soft-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="13"/></filter>
   </defs>
-  <path d="M360 18c-69 0-128 36-158 84 30 47 89 83 158 83s128-36 158-83c-30-48-89-84-158-84Z" fill="none" stroke="#ff9a8a" stroke-opacity=".76" stroke-width="3"/>
-  <circle cx="360" cy="102" r="35" fill="none" stroke="#fff4ed" stroke-width="3"/>
-  <circle cx="360" cy="102" r="11" fill="#ff856f" filter="url(#glow)"/>
-  <path d="M196 102h-47m422 0h-47" stroke="#ff9a8a" stroke-opacity=".55" stroke-width="2"/>
-  <text x="360" y="252" text-anchor="middle" fill="#ffb9ac" font-family="Arial,sans-serif" font-size="36" font-weight="700" letter-spacing="22">THE</text>
-  <text x="360" y="385" text-anchor="middle" fill="url(#word)" font-family="Impact,'Arial Narrow',sans-serif" font-size="178" font-weight="900" letter-spacing="-5" filter="url(#glow)">LIE</text>
-  <path d="m528 267-157 129" stroke="#ff6b69" stroke-width="7" stroke-linecap="square" opacity=".9"/>
-  <path d="m538 275-157 129" stroke="#ffd6cd" stroke-width="2" opacity=".85"/>
+  <g fill="none" stroke="#f3d8d4" stroke-opacity=".55" stroke-width="2">
+    <path d="M220 65h-56v50m432-50h56v50"/>
+    <path d="M180 65h-16m432 0h-16" stroke="#ff806f"/>
+  </g>
+  <path d="M256 102c32-35 74-53 124-53s92 18 124 53c-32 35-74 53-124 53s-92-18-124-53Z" fill="#160d17" stroke="url(#signal)" stroke-width="3"/>
+  <path d="M341 102c11-14 24-21 39-21s28 7 39 21c-11 14-24 21-39 21s-28-7-39-21Z" fill="none" stroke="#fff3ec" stroke-width="3"/>
+  <circle cx="380" cy="102" r="8" fill="#ff786b"/>
+  <circle cx="380" cy="102" r="18" fill="#f44a571f" filter="url(#soft-glow)"/>
+  <text x="380" y="224" text-anchor="middle" fill="#ff9e90" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" letter-spacing="18">THE</text>
+  <path d="M116 265h43v121h103v39H116V265Z" fill="url(#ivory)"/>
+  <path d="M329 265h43v160h-43V265Z" fill="url(#ivory)"/>
+  <path d="M442 265h173v39H485v22h108v38H485v22h130v39H442V265Z" fill="url(#ivory)"/>
+  <path d="m653 247-84 183" stroke="#ff5e64" stroke-width="7"/>
+  <path d="m664 252-84 183" stroke="#ffd3c9" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M106 438h90m368 0h90" stroke="#ff9a8a" stroke-opacity=".62" stroke-width="2"/>
+  <circle cx="106" cy="438" r="3" fill="#ff9a8a"/><circle cx="654" cy="438" r="3" fill="#ff9a8a"/>
 </svg>

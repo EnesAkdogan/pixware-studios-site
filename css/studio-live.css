@@ -4,8 +4,8 @@ body{background:var(--bg);background-image:radial-gradient(circle at 20% 15%,#5c
 .site-header{height:78px;background:#0c0915d9;backdrop-filter:blur(18px);border-color:#ffffff26}
 .primary-nav .nav-contact{background:var(--lime);color:#17101f;border-color:var(--lime);font-weight:800}.primary-nav .nav-contact span{color:#17101f}
 .brand-mark{background:linear-gradient(135deg,var(--orange),var(--purple));color:#1a082d;box-shadow:0 0 30px #af70ff66}
-.studio-hero{position:relative;min-height:min(780px,calc(100svh - 78px));display:grid;align-items:center;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 78% 38%,#65317e 0%,#21102f 39%,#0c0915 72%)}
-.hero-backdrop{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,#0c0915 10%,#0c0915ad 50%,#0c0915aa),url('../assets/games/starcatcher.png') center/cover;opacity:.36;filter:saturate(1.5)}
+.studio-hero{position:relative;min-height:min(780px,calc(100svh - 78px));display:grid;align-items:center;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 78% 42%,#4a1424 0%,#1d101c 41%,#0c0915 76%)}
+.hero-backdrop{position:absolute;inset:0;z-index:-2;background:radial-gradient(ellipse at 77% 48%,#ba27401c,transparent 35%),linear-gradient(128deg,transparent 46%,#ff73620b 46.2%,transparent 47%),linear-gradient(90deg,#0c0915 8%,#0c0915a8 52%,#0c091566);opacity:.9}
 .hero-grid{position:absolute;inset:0;z-index:-1;background-image:linear-gradient(#ffffff0d 1px,transparent 1px),linear-gradient(90deg,#ffffff0d 1px,transparent 1px);background-size:60px 60px;mask-image:linear-gradient(90deg,transparent,#000 60%)}
 .studio-hero-inner{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:6%;padding-block:90px 110px}
 .studio-hero-copy{position:relative;z-index:2;animation:slide-up .7s both}
