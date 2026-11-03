@@ -14,6 +14,6 @@ Site content is managed through repository changes. No browser-side admin panel 
 
 Cloudflare Email Address Obfuscation is disabled for this zone: its generated `/cdn-cgi/l/email-protection` links were returning 404. Email links use the `mailto:` addresses in the source HTML. Both custom domains use active Pages certificates with Full (strict) SSL.
 
-The zone's `Pixware legacy link redirects` ruleset redirects old `/cdn-cgi/l/email-protection` GET/HEAD requests on the two public hostnames to `https://pixwarestudios.com/contact`. `_redirects` also recovers the former `/PixwareLauncher` link to `/launcher`.
+`_redirects` also recovers the former `/PixwareLauncher` link to `/launcher`. Cloudflare owns the reserved `/cdn-cgi/` namespace and does not allow its endpoints to be customized. The retired email-protection endpoint can still return 404 when requested directly; no current site page links to it. A redirect rule was tested and removed after confirming it does not intercept this endpoint.
 
 When investigating HTTP errors through GraphQL, filter `requestSource: "eyeball"` for visitor requests. Pages' internal `earlyHintsCache` probes report 504 on cache misses; these do not represent visitor failures. Keep legitimate WAF blocks, unsupported-method responses, and unknown-URL 404s separate from broken site links.
